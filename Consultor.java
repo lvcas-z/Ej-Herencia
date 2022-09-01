@@ -4,6 +4,7 @@ public class Consultor extends Persona{
     private String consulName;
     private Integer consulNum;
 
+    //El constructor consultor hereda las caracteristicas de persona
     public Consultor(String name, Integer dni, String lastName, String nationality, Integer age, String consulName, Integer consulNum) {
         super(name, dni, lastName, nationality, age);
         this.consulName = consulName;
